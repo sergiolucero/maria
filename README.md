@@ -5,7 +5,7 @@
 3. almacenamiento de los audios+textos en AWS s3
 4. responde si detecta alguna pregunta
    
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://maria.streamlitapp.com/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lamaria.streamlitapp.com/)
 
 ## Ideas de Futuros
 
