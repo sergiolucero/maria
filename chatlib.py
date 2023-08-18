@@ -9,7 +9,7 @@ os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 #bot.add("https://www.youtube.com/watch?v=Hpb9lmQxguo&t=306s")
 #zuck_bot.add("https://en.wikipedia.org/wiki/Mark_Zuckerberg")
 
-bot = App(language='es')
+bot = App()   # pass language='es' to the YouTubeLoader?
 #bot.add("https://www.youtube.com/watch?v=MWP-LjOOuQ4")  # 3 personas hablando
 bot.add('web_page', 'https://raw.githubusercontent.com/sergiolucero/maria/master/youmaria.txt')
 bot.add('web_page', 'https://raw.githubusercontent.com/sergiolucero/maria/master/youmaria2.txt')
