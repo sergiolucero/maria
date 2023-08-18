@@ -12,7 +12,7 @@ st.info(txt)
 st.write("cuáles son las problemáticas?")
 txt="Las problemáticas mencionadas son el deterioro de viviendas, incendios, plagas como ratones y termitas, y la población canina descontrolada."
 st.info(txt)
-col1, col2 = st.cols(2)
+col1, col2 = st.columns(2)
 st.write('Fuentes:')
 with col1:
     st.write('https://www.youtube.com/watch?v=Hpb9lmQxguo')
