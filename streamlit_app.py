@@ -4,7 +4,7 @@ from linelib import simple_recorder # was linetabs
 from datetime import datetime
 ##############################################
 st.set_page_config(layout="wide")
-st.title('👨‍⚕Ella es la María🤖')
+st.title('👩‍🎤Ella es la María🤖')
 st.write(f'Hable con ella')
 ############################
 simple_recorder()
