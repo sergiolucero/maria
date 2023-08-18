@@ -2,6 +2,7 @@ boto3
 embedchain
 langchain
 openai
+pysqlite3
 streamlit
 streamlit-audiorecorder
 tiktoken
