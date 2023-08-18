@@ -32,4 +32,5 @@ st.info(bot.query('quiénes participaron de la conversación?'))
 prompt = st.chat_input("Alguna pregunta?")
 if prompt:
     text = bot.query(prompt)
-    st.write(f"User has sent the following prompt: {text}")
+    st.write(prompt)
+    st.info(text)
