@@ -1,4 +1,5 @@
 import os, openai
+import streamlit as st
 from embedchain import App
 
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
