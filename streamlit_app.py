@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 st.title('👩‍🎤Ella es la María🤖')
 st.write(f'Hable con ella')
 ############################
-os.environ['OPENAI_API_KEY'] = st.secrets('OPENAI_API_KEY')
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 #simple_recorder()
 #from embedchain import Llama2App
 #os.environ['REPLICATE_API_TOKEN'] = "REPLICATE API TOKEN"
