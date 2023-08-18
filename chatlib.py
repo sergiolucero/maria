@@ -12,4 +12,4 @@ os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 bot = App()
 bot.add("https://www.youtube.com/watch?v=MWP-LjOOuQ4")
 bot.add('web_page', 'https://raw.githubusercontent.com/sergiolucero/maria/master/youmaria.txt')e
-bot.add('web_page', 'https://raw.githubusercontent.com/sergiolucero/maria/master/youmaria2.txt')e
+#bot.add('web_page', 'https://raw.githubusercontent.com/sergiolucero/maria/master/youmaria2.txt')e
