@@ -1,7 +1,7 @@
 import boto3
 import streamlit as st
 
-FELIX_BUCKET = 'cetram-felix'
+FELIX_BUCKET = 'maria-lucero'
 AWS_KEY = st.secrets['AWS_KEY'] 
 AWS_ID = st.secrets['AWS_ID']
 
