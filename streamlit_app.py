@@ -27,4 +27,9 @@ st.header('Fuente: https://www.youtube.com/watch?v=Hpb9lmQxguo')
 
 bot = App()
 bot.add('web_page', 'https://raw.githubusercontent.com/sergiolucero/maria/master/youmaria.txt')
-bot.query('quiénes participaron de la conversación?')
+st.info(bot.query('quiénes participaron de la conversación?'))
+
+prompt = st.chat_input("Alguna pregunta?")
+if prompt:
+    text = bot.query(prompt)
+    st.write(f"User has sent the following prompt: {text}")
