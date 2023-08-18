@@ -18,4 +18,10 @@ st.write(f'Hable con ella')
 #bot.query("Qué pasa con el barrio puerto?")
 st.write("Qué pasa con el barrio puerto?")
 txt="El barrio Puerto ha experimentado despoblamiento y deterioro. Según un estudio realizado por Pablo Trielli, actualmente viven alrededor de 870 personas en el barrio Puerto, lo cual es muy poco en comparación con los aproximadamente 12.000 habitantes de toda la zona típica. La foto muestra un pasaje del barrio Puerto en un día de semana."
-st.write(txt)
+st.info(txt)
+
+st.write("cuáles son las problemáticas?")
+txt="Las problemáticas mencionadas son el deterioro de viviendas, incendios, plagas como ratones y termitas, y la población canina descontrolada."
+st.info(txt)
+
+st.header('Fuente: https://www.youtube.com/watch?v=Hpb9lmQxguo              ')
